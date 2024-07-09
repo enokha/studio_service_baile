@@ -8,5 +8,5 @@ router.register(r'studios', StudioViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('api-token-auth/', obtain_auth_token, name='api_token_auth'),  # Add this line
+    path('api-token-auth/', obtain_auth_token, name='api_token_auth'),  
 ]
